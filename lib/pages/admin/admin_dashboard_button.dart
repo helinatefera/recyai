@@ -3,12 +3,14 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'admin_requests_page.dart';
 
+/// A button that only shows if the user is an admin.
 class AdminDashboardButton extends StatefulWidget {
   const AdminDashboardButton({super.key});
   @override
   State<AdminDashboardButton> createState() => _AdminDashboardButtonState();
 }
 
+/// State for [AdminDashboardButton].
 class _AdminDashboardButtonState extends State<AdminDashboardButton> {
   late final Stream<bool> _adminStream;
   bool _welcomed = false;
@@ -37,6 +39,7 @@ class _AdminDashboardButtonState extends State<AdminDashboardButton> {
     }
   }
 
+  /// Builds the widget.
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<bool>(
@@ -72,6 +75,7 @@ class _AdminDashboardButtonState extends State<AdminDashboardButton> {
   }
 }
 
+/// A dashboard button widget.
 class _DashButton extends StatelessWidget {
   final String title;
   final String subtitle;

@@ -9,7 +9,7 @@ import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 
 // --- DATA CLASS (for organizing data) ---
-
+/// Holds the data needed for generating the weekly report.
 class WeeklyReportData {
   final String userName;
   final int weeklyScanned;

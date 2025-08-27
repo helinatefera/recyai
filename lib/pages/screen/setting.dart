@@ -16,6 +16,7 @@ import 'package:geolocator/geolocator.dart';
 import 'edit.dart';
 import '../services/notification_service.dart';
 
+/// Settings screen where users can manage their profile, notifications, and app preferences.
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
 

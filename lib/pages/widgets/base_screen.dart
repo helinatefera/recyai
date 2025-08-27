@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'navigation.dart';
 
+/// Base screen widget that provides a consistent layout with navigation.
 class BaseScreen extends StatelessWidget {
   final Widget child;
 

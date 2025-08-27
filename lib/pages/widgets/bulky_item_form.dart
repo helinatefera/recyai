@@ -11,6 +11,7 @@ import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart' as p;
 
+/// A form that allows users to schedule a bulky item pickup by providing
 class BulkyItemForm extends StatefulWidget {
   const BulkyItemForm({super.key});
 

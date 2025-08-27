@@ -10,6 +10,8 @@ import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:google_fonts/google_fonts.dart'; 
 import 'package:image_picker/image_picker.dart';
 
+
+/// Screen for editing user profile information.
 class EditProfileScreen extends StatefulWidget {
   const EditProfileScreen({super.key});
 

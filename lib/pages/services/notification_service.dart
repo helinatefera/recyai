@@ -9,6 +9,8 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'dart:io' show Platform;
 import 'dart:convert';
 
+
+/// Firebase Messaging background handler.
 @pragma('vm:entry-point')
 Future<void> firebaseBackgroundHandler(RemoteMessage message) async {
   WidgetsFlutterBinding.ensureInitialized();

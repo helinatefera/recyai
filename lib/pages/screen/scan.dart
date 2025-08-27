@@ -13,6 +13,8 @@ import '../widgets/bulky_item_form.dart' as bulky_form;
 import 'bulky_items_list.dart';
 import '../admin/admin_dashboard_button.dart';
 
+
+// Screen for scanning waste items and displaying results.
 class Scan extends StatefulWidget {
   const Scan({super.key});
 

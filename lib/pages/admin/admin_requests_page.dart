@@ -5,12 +5,15 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
+
+/// Page for admins to view and manage bin requests.
 class AdminRequestsPage extends StatefulWidget {
   const AdminRequestsPage({super.key});
   @override
   State<AdminRequestsPage> createState() => _AdminRequestsPageState();
 }
 
+//
 class _AdminRequestsPageState extends State<AdminRequestsPage> {
   final _addedIds = <String>{};
   late final FirebaseMessaging _fm;
@@ -30,6 +33,7 @@ class _AdminRequestsPageState extends State<AdminRequestsPage> {
   static const hint = Color(0xFFA9B4B3);
   static const accent = Color(0xFF2FD885);
 
+  // Initializes the state.
   @override
   void initState() {
     super.initState();

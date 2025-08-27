@@ -11,6 +11,8 @@ import 'package:geolocator/geolocator.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:animate_do/animate_do.dart';
 
+
+/// Registration screen with profile image upload and optional location.
 class RegisterPage extends StatefulWidget {
   final VoidCallback onSignInTap;
 

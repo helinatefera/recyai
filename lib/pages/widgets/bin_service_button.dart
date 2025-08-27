@@ -9,6 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+/// A button that allows users to request bin services like cleaning or repair.
 class BinServiceButton extends StatefulWidget {
   const BinServiceButton({super.key});
   @override

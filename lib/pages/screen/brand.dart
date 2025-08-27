@@ -6,6 +6,8 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+
+/// Screen that shows brand statistics based on user scans.
 class BrandsScreen extends StatefulWidget {
   const BrandsScreen({super.key});
 

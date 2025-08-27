@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:animate_do/animate_do.dart';
 
+/// Login screen with email and password fields, and a link to the registration page.
 class LoginPage extends StatefulWidget {
   final VoidCallback onRegisterTap;
   const LoginPage({super.key, required this.onRegisterTap});

@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
+/// Screen that shows a list of bulky items available for pickup.
 class BulkyItemsList extends StatefulWidget {
   const BulkyItemsList({super.key});
 

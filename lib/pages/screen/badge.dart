@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+
+/// A section that shows user badges based on their recycling activities.
 class BadgesSection extends StatefulWidget {
   const BadgesSection({super.key});
 

@@ -6,7 +6,7 @@ import 'package:animate_do/animate_do.dart';
 import './badge.dart';
 import './yearly_calander.dart';
 
-
+/// Screen that displays user statistics, eco-impact, and badges.
 class UserStats {
   final int lifetimeScanned;
   final int  xpEarned;

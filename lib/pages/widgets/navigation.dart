@@ -3,6 +3,7 @@ import 'package:awesome_bottom_bar/widgets/inspired/inspired.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+/// Navigation bar widget for the app.
 class Navigation extends StatelessWidget {
   final int currentIndex;
   final Function(int) onItemTapped;

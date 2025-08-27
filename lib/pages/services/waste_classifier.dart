@@ -4,6 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:image/image.dart' as img;
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
+/// WasteClassifier uses OpenAI's GPT-4o model to classify waste items from images.
 class WasteClassifier {
   final String? apiKey = dotenv.env['OPENAI_API_KEY'];
   final List<Map<String, dynamic>> tools = [

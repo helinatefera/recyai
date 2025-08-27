@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+
+/// A rectangular year calendar widget that displays months, allows date selection,
 class RectYearCalendar extends StatefulWidget {
   final DateTime? initialDate;
   final ValueChanged<DateTime>? onChanged;

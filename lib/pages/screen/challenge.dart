@@ -6,6 +6,8 @@ import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+
+/// Screen for neighborhood challenges.
 class ChallengesScreen extends StatefulWidget {
   const ChallengesScreen({super.key});
   @override
